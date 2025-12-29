@@ -3,6 +3,9 @@
 print("=== Tabuada ===")
 print("Digite um número para ver sua tabuada:")
 num = int(input("Número: "))
+if num < 0:
+    print("Por favor, insira um número não negativo.")
+    exit()
 
 print("Tabuada de", num)
 print("------------------")
